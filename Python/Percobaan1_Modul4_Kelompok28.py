@@ -1,3 +1,5 @@
+import Percobaan2_Modul4_Kel28
+
 # Function dengan non return type
 def non_return_type (praktikan1, praktikan2):
     print(f"Selamat datang di praktikum DKP 2021 {praktikan1} dan {praktikan2} ")
@@ -24,3 +26,12 @@ non_return_type("Nanda", "Iqbal")
 return_type(2)
 arbitrary_func("Nanda", "Iqbal", "Hanafi", "Halo bro")
 anonim_func("Nanda", "Iqbal", 28)
+
+# Membuat object
+p2 = Percobaan2_Modul4_Kel28.contoh_method("Nanda", "Iqbal")
+
+# Memanggil method dengan self parameter
+p2.mulai()
+
+# Memanggil object dengan parameter
+p2.selesai(3)
