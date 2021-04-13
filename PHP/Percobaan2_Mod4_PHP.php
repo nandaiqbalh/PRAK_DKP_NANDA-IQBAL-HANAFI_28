@@ -10,3 +10,10 @@ class pendefinisi {
     }
 }
 
+//code pemanggil method
+$angka = 64;
+//$objek merupakan instance dari class pendefinisi
+$objek = new pendefinisi(); 
+// OOP pada PHP menggunakan -> bukan . echo "akar dari $angka adalah ".$objek -> akar($angka);
+echo "<hr>";
+$objek -> staysafe('air', 'sabun');
