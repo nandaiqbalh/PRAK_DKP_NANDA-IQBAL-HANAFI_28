@@ -1,13 +1,7 @@
 package com.nandaiqbalh;
 
 public class Pendefinisi {
-    public static void main(String[] args) {
-        Pendefinisi objek = new Pendefinisi();
-        objek.greeting();
-        objek.kelompok("Kelompok 28");
-        String print = objek.kenalan("Nanda", "futsal");
-        System.out.println(print);
-    }
+
     public void greeting(){
         System.out.println("Hai, saya method dari class pendefinisi. Salam kenal :)");
     }

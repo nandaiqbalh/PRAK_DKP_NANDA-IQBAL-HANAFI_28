@@ -2,6 +2,8 @@ package com.nandaiqbalh;
 
 public class Modul4_Kel28 {
     public static void main(String[] args) {
+
+        // PEMANGGILAN FUNGSI
         //penggunaan function non-return type dengan megisikan argument untuk parameter kelompok
         cetak("Kelompok 28");
         //penggunaan function non-return type tanpa parameter
@@ -10,6 +12,13 @@ public class Modul4_Kel28 {
         System.out.println(cetak2("Function dengan Return"));
         //penggunaan function return type tanpa parameter
         System.out.println(cetak3());
+
+        /*// PEMANGGILAN METHOD
+        Pendefinisi objek = new Pendefinisi();
+        objek.greeting();
+        objek.kelompok("Kelompok 28");
+        String print = objek.kenalan("Nanda", "futsal");
+        System.out.println(print);*/
     }
 
     // non-return type dengan parameter
@@ -31,4 +40,6 @@ public class Modul4_Kel28 {
     static String cetak3() {
         return "Kali ini kita akan belajar mengenai Function";
     }
+
+
 }
